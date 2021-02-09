@@ -1,0 +1,84 @@
+*{
+    margin:0;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+body{
+    background:#000000;
+    color:#2e0535;
+}
+
+.title{
+    width: 500px;
+    color:blueviolet;
+    margin:3% auto;
+    text-align: center;
+}
+
+.content{
+    width: 580px;
+    margin: 0 auto;
+    background-color: blueviolet;
+    padding: 3%;
+    padding-left: 6%;
+}
+
+.secondTitle{
+    text-align:left;
+    margin: 2% 0;
+    font-weight: 100;
+}
+
+.form{
+    padding: 5px;
+}
+
+.formLine{
+    display: inline-flex;
+    padding: 5px 0px;
+}
+
+.left{
+    float: left;
+}
+
+.right{
+    float:right;
+    margin-right: 100px;
+}
+
+input, select{
+    width: 130px;
+    margin-left: 10px;
+}
+
+/* table style */
+table{
+    width: 100%;
+    text-align: center;
+}
+
+thead{
+    background-color:#55055c;
+    line-height: 30px;
+}
+
+/* Button */
+
+button{
+    width: 200px;
+    color:rgb(255, 255, 255); 
+    padding: 10px;
+    text-align: center;
+    font-size: 1.1em;
+    line-height: 20px;
+    background-color: #591363;
+    border-radius: 5px;
+    margin: 14px 25%;
+    cursor: pointer;
+}
+
+a{
+    text-decoration: underline;
+    cursor: pointer;
+}
